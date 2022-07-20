@@ -8,11 +8,9 @@ dashboard "hn_minimal" {
 select
   *
 from
-  hackernews_item 
+  hackernews_new
 order by
   time desc
-limit
-  100
 EOQ
   }
 }
